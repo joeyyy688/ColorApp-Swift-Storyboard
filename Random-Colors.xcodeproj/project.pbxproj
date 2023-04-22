@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045D473F29F4A9CF00E34534 /* UiColor-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D473E29F4A9CF00E34534 /* UiColor-Ext.swift */; };
 		04B5873929F2F0B4007F3016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5873829F2F0B4007F3016 /* AppDelegate.swift */; };
 		04B5873B29F2F0B4007F3016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5873A29F2F0B4007F3016 /* SceneDelegate.swift */; };
 		04B5874029F2F0B4007F3016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B5873E29F2F0B4007F3016 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045D473E29F4A9CF00E34534 /* UiColor-Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiColor-Ext.swift"; sourceTree = "<group>"; };
 		04B5873529F2F0B4007F3016 /* Random-Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random-Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B5873829F2F0B4007F3016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B5873A29F2F0B4007F3016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045D473D29F4A99B00E34534 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				045D473E29F4A9CF00E34534 /* UiColor-Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04B5872C29F2F0B4007F3016 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		04B5873729F2F0B4007F3016 /* Random-Colors */ = {
 			isa = PBXGroup;
 			children = (
+				045D473D29F4A99B00E34534 /* Extensions */,
 				04B5873829F2F0B4007F3016 /* AppDelegate.swift */,
 				04B5873A29F2F0B4007F3016 /* SceneDelegate.swift */,
 				04B5874C29F2FF6A007F3016 /* ColorsTableVCViewController.swift */,
@@ -145,6 +156,7 @@
 				04B5874D29F2FF6A007F3016 /* ColorsTableVCViewController.swift in Sources */,
 				04B5874F29F3027C007F3016 /* ColorsDetailViewController.swift in Sources */,
 				04B5873B29F2F0B4007F3016 /* SceneDelegate.swift in Sources */,
+				045D473F29F4A9CF00E34534 /* UiColor-Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
